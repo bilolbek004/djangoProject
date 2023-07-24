@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "django-project"
+version = "0.1.0"
+description = ""
+authors = ["jakhongir <ganiyevuzb@gmail.com>"]
+readme = "README.md"
+packages = [{include = "django_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.3"
+psycopg2-binary = "^2.9.6"
+faker = "^19.1.0"
+tqdm = "^4.65.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
